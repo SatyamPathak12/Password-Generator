@@ -59,9 +59,7 @@ function App() {
       </div>
       <div className="text-white mb-4">
         <div className="flex items-center justify-between mb-4">
-          <label className="flex items-center gap-x-2">
-            Length: {length}
-          </label>
+          <label className="flex items-center gap-x-2">Length: {length}</label>
           <input
             type="range"
             min={6}
